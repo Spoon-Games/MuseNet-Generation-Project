@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="MuseEditor.uss" />
+    <ui:VisualElement name="Player" class="HeaderBackground" style="flex-wrap: wrap-reverse; flex-direction: row; flex-grow: 1; justify-content: space-between; align-items: center;">
+        <ui:Button text="Play" display-tooltip-when-elided="True" name="play-button" />
+        <ui:Slider picking-mode="Ignore" value="0" high-value="1" name="play-slider" style="flex-grow: 1; flex-shrink: 1;" />
+        <ui:Label text="Label" display-tooltip-when-elided="True" name="time-label" style="-unity-text-align: middle-right;" />
+    </ui:VisualElement>
+</ui:UXML>

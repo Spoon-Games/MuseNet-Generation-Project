@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="MuseEditor.uss" />
+    <ui:VisualElement class="HeaderBackground" style="flex-direction: column; justify-content: center; align-items: stretch; flex-wrap: wrap; flex-grow: 0;">
+        <uie:ObjectField label="Start melodie" name="start-melodie-field" />
+        <MuseL.MyOptionsField label="Genre" name="genre-field" />
+        <MuseL.InstrumentField name="instruments-field" />
+        <uie:IntegerField label="Temperature" value="1" name="temperature-field" />
+        <uie:IntegerField label="Trunication" value="27" name="trunication-field" />
+        <ui:VisualElement style="height: 10px;" />
+        <uie:FloatField label="Length [min]" value="3" name="length-field" />
+        <uie:IntegerField label="Amount" value="2" name="amount-field" />
+        <ui:Button text="Generate" display-tooltip-when-elided="True" name="generate-button" />
+    </ui:VisualElement>
+</ui:UXML>

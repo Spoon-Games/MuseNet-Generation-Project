@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="MuseEditor.uss" />
+    <ui:VisualElement style="flex-direction: row;">
+        <ui:Label text="Gen1" display-tooltip-when-elided="True" name="name-label" style="color: rgb(56, 57, 60); -unity-text-align: middle-left; flex-grow: 1;" />
+        <ui:Label text="Gen1" display-tooltip-when-elided="True" name="status-label" style="color: rgb(56, 57, 60); -unity-text-align: middle-left; flex-grow: 1;" />
+        <ui:Button text="Play" display-tooltip-when-elided="True" name="play-button" />
+        <ui:Button text="Save" display-tooltip-when-elided="True" name="save-button" />
+        <ui:Button text="Save As" display-tooltip-when-elided="True" name="save-as-button" />
+        <ui:Button text="Delete" display-tooltip-when-elided="True" name="delete-button" />
+    </ui:VisualElement>
+</ui:UXML>

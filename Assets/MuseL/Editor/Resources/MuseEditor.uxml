@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="MuseEditor.uss" />
+    <ui:VisualElement style="flex-grow: 1; align-items: stretch; flex-shrink: 0;">
+        <MuseL.GeneratorElement />
+        <MuseL.RecieverListElement class="HeaderBackground" style="border-left-color: rgb(69, 154, 5); border-right-color: rgb(69, 154, 5); border-top-color: rgb(69, 154, 5); border-bottom-color: rgb(69, 154, 5); flex-wrap: wrap-reverse; flex-direction: column; align-items: stretch; min-height: 200px;" />
+        <MuseL.MidiPlayerElement />
+        <ui:VisualElement style="height: 50px;" />
+    </ui:VisualElement>
+</ui:UXML>

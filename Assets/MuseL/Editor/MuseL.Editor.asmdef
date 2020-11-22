@@ -1,0 +1,16 @@
+{
+    "name": "MuseL.Editor",
+    "references": [
+        "GUID:9b0f0f81570b13940804443d8e5d647a",
+        "GUID:81dcd5e16b658724696c537d84842e86"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

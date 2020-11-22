@@ -1,0 +1,15 @@
+{
+    "name": "MuseL",
+    "references": [
+        "GUID:81dcd5e16b658724696c537d84842e86"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

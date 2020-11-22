@@ -1,0 +1,27 @@
+.HeaderBackground {
+    background-color: rgba(14, 13, 13, 0.43);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(103, 100, 100);
+    border-right-color: rgb(103, 100, 100);
+    border-top-color: rgb(103, 100, 100);
+    border-bottom-color: rgb(103, 100, 100);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
